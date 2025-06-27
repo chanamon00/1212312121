@@ -1,23 +1,9 @@
-<template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
-</template>
-
-<script setup>
-useHead({
-  link: [
-    {
-      rel: 'stylesheet',
-      href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css'
-    }
-  ],
-  script: [
-    {
-      src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js',
-      defer: true
-    }
-  ]
-})
-</script>
+<v-app>
+  <v-container>
+  <h2> สมาชิกทีม </h2>
+  <ul>
+  <li><Nuxtlink to="/profile/ploy">ploy</Nuxtlink></li>
+  </ul>
+  <NuxtPage />
+  </v-container>
+  </v-app>
