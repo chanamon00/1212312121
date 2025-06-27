@@ -1,6 +1,6 @@
 <template>
     คนที่1
-    <span v-for="i in 100"> {{ i }} </span> 
+    <span v-for="i in 1000"> {{ i+" " }} </span> 
 </template>
 <script>
 export default {
