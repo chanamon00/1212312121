@@ -1,3 +1,8 @@
 <template>
-    หน้านี้อยู่ใน /pages/index.vue
+    สมาชิก
+    <ul>
+        <li>คนที่1</li>
+        <li>คนที่2</li>
+        <li>คนที่3</li>
+    </ul>
 </template>
