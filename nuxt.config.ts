@@ -10,5 +10,8 @@ export default defineNuxtConfig({
       'process.env.DEBUG':false,
     },
   },
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  modules: [
+    'usebootstrap'
+    ],
 })
